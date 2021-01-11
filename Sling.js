@@ -3,7 +3,7 @@ class Sling{
        var options={
            bodyA:bodyA,
            pointB:pointB,
-           stiffness:0.06,
+           stiffness:0.08,
            length:0.5,
            damping:0.0001
        }
