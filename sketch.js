@@ -43,7 +43,7 @@ function setup(){
     //3rd floor
     b16=new Box(510,295,30,40);
 
-    //base for another blocks
+    //base 
     
     v1=new Box(720,285,30,40);
     v2=new Box(750,285,30,40);
@@ -52,14 +52,17 @@ function setup(){
     v5=new Box(840,285,30,40);
     v6=new Box(870,285,30,40);
     v7=new Box(900,285,30,40);
+    //1st floor
     v8=new Box(750,245,30,40);
     v9=new Box(780,245,30,40);
     v10=new Box(810,245,30,40);
     v11=new Box(840,245,30,40);
     v12=new Box(870,245,30,40);
+    //2nd flor
     v13=new Box(780,205,30,40);
     v14=new Box(810,205,30,40);
     v15=new Box(840,205,30,40);
+    //3rd floor
     v16=new Box(810,165,30,40);
 
     // making sling 
@@ -73,7 +76,7 @@ function setup(){
 }
 
 function draw(){
-    background("white");
+    background("black");
     Engine.update(engine);
 
     ball.display();
