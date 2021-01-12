@@ -86,16 +86,17 @@ function draw(){
     b6.display();
     b7.display();
     //1st floor
-    b8.display();
-    b9.display();
-    b10.display();
-    b11.display();
-    b12.display();
+    b8.display1();
+    b9.display1();
+    b10.display1();
+    b11.display1();
+    b12.display1();
     //2nd floor
-    b13.display();
-    b14.display();
-    b15.display();
-    b16.display();
+    b13.display2();
+    b14.display2();
+    b15.display2();
+    //top
+    b16.display3();
 
     //base 
     v1.display();
@@ -105,15 +106,18 @@ function draw(){
     v5.display();
     v6.display();
     v7.display();
-    v8.display();
-    v9.display();
-    v10.display();
-    v11.display();
-    v12.display();
-    v13.display();
-    v14.display();
-    v15.display();
-    v16.display();
+    //1st floor
+    v8.display1();
+    v9.display1();
+    v10.display1();
+    v11.display1();
+    v12.display1();
+    //2nd floor
+    v13.display2();
+    v14.display2();
+    v15.display2();
+    //3rd floor
+    v16.display3();
 
     //sling
     sling.display();

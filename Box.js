@@ -14,6 +14,33 @@ class Box{
         var pos= this.body.position;
         push();
         rectMode(CENTER);
+        fill("#87CEEA")
+        rect( pos.x, pos.y, this.width, this.height);
+        pop();
+      }
+
+      display1(){
+        var pos= this.body.position;
+        push();
+        rectMode(CENTER);
+        fill("#FFC0CB")
+        rect( pos.x, pos.y, this.width, this.height);
+        pop();
+      }
+      display2(){
+        var pos= this.body.position;
+        push();
+        rectMode(CENTER);
+        fill("#3FE0D0")
+        rect( pos.x, pos.y, this.width, this.height);
+        pop();
+      }
+
+      display3(){
+        var pos= this.body.position;
+        push();
+        rectMode(CENTER);
+        fill("#808080")
         rect( pos.x, pos.y, this.width, this.height);
         pop();
       }
